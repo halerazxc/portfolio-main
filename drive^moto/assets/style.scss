@@ -1,0 +1,24 @@
+// import
+@import './global';
+@import './resset';
+@import './normalize';
+@import './fonts';
+@import './container';
+@import './header-navigation';
+@import './header-content';
+@import './main';
+@import './main-content__image';
+@import './slider';
+@import './footer';
+@import './footer^2';
+// import
+* {
+    font-family: Phagspa-font;
+}
+
+html body {
+    a,
+    p {
+        color: #000;
+    }
+}

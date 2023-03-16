@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background: #0DC646;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background: url(../img/logo.svg) no-repeat 0%;
+    height: 80px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+header .logo:hover {
+    background: url(../img/logo-reverse.svg) no-repeat 0%;
+    height: 80px;
+    background-size: contain;
+    transition: 0.5s;
+}
+
+
+/* main */
+
+main {
+    background: url(../img/fon_lk.png) no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+
+/* menu */
+
+.navigation a {
+    color: #1A1A1A;
+    border: 1px solid #262626;
+    padding: 16px 16px;
+    background: #262626;
+    color: #fff;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation li {
+    margin: 0 5px;
+    display: flex;
+}
+
+
+/* footer */
+
+footer {
+    height: 35vh;
+    background: #1A1A1A;
+    display: flex;
+    align-items: center;
+}
+
+.first_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_footer {
+    display: flex;
+}
+
+.first_nav ul .text-p {
+    font-size: 16px;
+    color: #4A4A4A;
+    letter-spacing: 2.5px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.first_nav ul .p-data {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #9b9b9b;
+}
+
+.first_nav ul li {
+    margin: 12px 0;
+    color: #9b9b9b;
+    font-size: 14px;
+}
+
+.first_nav ul li:hover {
+    text-decoration: underline;
+}
+
+.first_nav img {
+    margin: 0 15px;
+}
+
+.first_nav img:first-child {
+    margin-left: 0;
+}

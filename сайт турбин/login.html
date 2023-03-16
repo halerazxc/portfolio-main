@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in</title>
+    <link rel="stylesheet" href="css/katalog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;800&family=Raleway:wght@100;300;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="flex_sp_between">
+                <div target="blank" onclick="location.href='index.html';" class="logo">
+                    <img src="photo/logo.svg" alt="">
+                    <a class="" target="blank" href="index.html">Ремонт и продажа турбин для <br> легковых и грузовых авто с <br> курьерской доставкой по России.
+                    </a>
+                </div>
+                <div onclick="burger2()" class="burger">
+                    <img src="photo/burger_menu.png" alt="">
+                </div>
+                <ul class="menu">
+                    <li><a href="" class="katalog_button">СТОИМОСТЬ РЕМОНТА</a></li>
+                    <li><a href="" class="uslugi_button">УСЛУГИ</a></li>
+                </ul>
+                <img class="korzina" src="photo/pokupki.svg" alt="">
+                <div class="flex">
+                    <div class="telephone">
+
+                        <img src="photo/chat.svg" alt="">
+                        <div class="tel_info">
+                            <p>Звони, проконсультируем</p>
+                            <p>+7 (925) 000-22-62</p>
+                        </div>
+                    </div>
+                    <div target="blank" onclick="location.href='login.html';" class="chelovechek_img">
+                        <img src="photo/chelovechek.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="log-in">
+        <div class="container login">
+            <p>Вход</p>
+            <form id="form_phone" action=""><label for="phone">E-mail</label> <br>
+                <input type="email" placeholder="Введите ваш e-mail"></form>
+
+            <form id="formphone" action=""><label for="phone">Пароль</label> <br>
+                <input type="password" placeholder="**********"></form>
+            <div class="btn_login">
+                <a href="">Войти</a>
+            </div>
+            <div class="login_a">
+                <a href="">Забыли пароль?</a>
+                <a href="">Зарегестрироваться</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+
+            <div class="footer_blocks">
+                <div class="footer_block">
+                    <div class="logo">
+                        <img src="photo/logo.svg" alt="">
+                        <p class="footer_p">Ремонт и продажа турбин для <br> легковых и грузовых авто с <br> курьерской доставкой по России.
+                        </p>
+                    </div>
+                    <div class="footer_img">
+                        <img src="photo/footer_chat.svg" alt="">
+                        <div class="footer_img_text">
+                            <p>Связь с нами</p>
+                            <p>+7 (925) 000-22-62</p>
+                        </div>
+                    </div>
+                    <img class="social_footer" src="photo/social_footer.svg" alt="">
+                </div>
+                <div class="footer_block">
+                    <p>Информация</p>
+                    <ul>
+                        <li>Ремонт турбин</li>
+                        <li>Цены</li>
+                        <li>Данные авто</li>
+                        <li>Ремонт</li>
+                        <li>Каталог</li>
+                        <li>Корзина</li>
+                    </ul>
+                </div>
+                <div class="footer_block">
+                    <p>Контакты</p>
+                    <div class="footer_img">
+                        <img src="photo/mobile.svg" alt="">
+                        <div class="footer_img_text">
+                            <p>Телефон</p>
+                            <p>+7 (925) 000-22-62</p>
+                        </div>
+                    </div>
+                    <div class="footer_img">
+                        <img src="photo/times.svg" alt="">
+                        <div class="footer_img_text">
+
+                            <p>Время работы </p>
+                            <p>С 10:00 до 20:00</p>
+                        </div>
+                    </div>
+                    <div class="footer_img">
+                        <img src="photo/pochta.svg" alt="">
+                        <div class="footer_img_text">
+                            <p>Почта</p>
+                            <p>turbo.cm@yandex.ru</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="last_footer">© Turbo-CM 2022</p>
+    </footer>
+</body>
+
+</html>

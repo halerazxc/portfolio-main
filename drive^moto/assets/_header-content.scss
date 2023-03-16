@@ -1,0 +1,85 @@
+header {
+    .header-content__image {
+        max-width: 100%;
+    }
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 36px;
+        padding-top: 80px;
+        .header-content__price {
+            width: 265px;
+            height: 400px;
+            background: #fff;
+            border: 1px solid #CDCDCD;
+            padding: 0 8px;
+            position: relative;
+            .title-df {
+                .header-content__stock {
+                    width: 90px;
+                    height: 30px;
+                    background: #1C62CD;
+                    position: absolute;
+                    left: 0;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    .header-content__title {
+                        color: #fff;
+                        text-align: center;
+                    }
+                }
+            }
+            .header-content__text {
+                .header-content__title {
+                    font-family: 'Barlow', sans-serif;
+                    line-height: 1.2;
+                }
+                .header-content__title:first-child {
+                    font-size: 27px;
+                    color: #1C62CD;
+                    font-weight: bold;
+                    text-align: end;
+                }
+                .header-content__title:last-child {
+                    font-size: 20px;
+                    color: #ff0000;
+                    font-weight: 300;
+                    text-decoration: line-through;
+                    text-align: end;
+                }
+            }
+            .header-image_text {
+                text-align: center;
+                .header-image {
+                    width: 264px;
+                    height: 177px;
+                }
+                .header-image__text {
+                    .header__title {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 21px;
+                    }
+                    .header__title-h1 {
+                        color: #000;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 21px;
+                        text-align: center;
+                    }
+                    .header__title-span {
+                        color: #1C62CD;
+                        font-size: 18px;
+                        font-family: 'Barlow';
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}

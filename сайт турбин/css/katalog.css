@@ -1,0 +1,629 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        overflow: none;
+    }
+    
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .burger {
+        display: none;
+    }
+    
+    .header {
+        padding: 10px 100px;
+    }
+    
+    .flex_sp_between {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header {
+        background: #eff4f7;
+    }
+    
+    .container {
+        margin: 0 auto;
+        width: 70%;
+    }
+    
+    .header .logo {
+        display: flex;
+        color: #00A19C;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .header .logo a {
+        color: #00A19C;
+    }
+    
+    .header .logo img {
+        width: 82px;
+        height: 82px;
+        margin-right: 15px;
+    }
+    
+    .logo p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .header .menu {
+        display: flex;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        margin-left: 135px;
+    }
+    
+    .header .menu li a {
+        margin: 0 15px;
+        font-weight: 600;
+    }
+    
+    .katalog_button {
+        color: #00A19C;
+        transition: 0.2s;
+    }
+    
+    #input_katalog {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .katalog_button:hover {
+        color: #222222;
+    }
+    
+    .uslugi_button {
+        color: #222222;
+        transition: 0.2s;
+    }
+    
+    .uslugi_button:hover {
+        color: #00A19C;
+        transition: 0.2s;
+    }
+    
+    .telephone {
+        background: #0f68ac;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .telephone .tel_info p:first-child {
+        font-size: 16px;
+        margin: 0;
+    }
+    
+    .telephone .tel_info p:last-child {
+        font-size: 25px;
+        font-weight: 600;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .telephone img {
+        width: 48px;
+        height: 48px;
+        margin-right: 10px;
+    }
+    
+    .header_2 {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .katalog p {
+        font-size: 40px;
+        font-weight: bold;
+        border-bottom: 1px solid #EFF4F7;
+        padding-bottom: 9px;
+    }
+    
+    .katalog input {
+        padding-left: 15px;
+        font-size: 18px;
+        width: 580px;
+        height: 44px;
+        margin-top: 16px;
+        margin-right: 38px;
+        background: #EFF4F7;
+        border: 0;
+    }
+    
+    .katalog input::placeholder {
+        font-size: 16px;
+        color: #656565;
+        font-weight: lighter;
+    }
+    
+    .cena {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .cena p {
+        font-weight: 300;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+    
+    .header_2 .container {
+        font-size: 20px;
+        color: #222222;
+        font-weight: bold;
+    }
+    
+    .header_2 .cena input {
+        width: 150px;
+        height: 45px;
+        border: 0;
+        background: #EFF4F7;
+        padding-left: 10px;
+        margin: 0 10px 10px;
+    }
+    
+    #phone {
+        width: 300px;
+        margin-left: 30px;
+    }
+    
+    #phone input {
+        width: 260px;
+        height: 45px;
+        border: 0;
+        background: #EFF4F7;
+        padding-left: 10px;
+        margin: 10px 0px 10px;
+        font-size: 15 px;
+    }
+    
+    #phone label {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    
+    .header .chelovechek_img {
+        background: #00A19C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 32px;
+        transition: .2s;
+        cursor: pointer;
+    }
+    
+    .chelovechek_img a {
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+    
+    .chelovechek_img:hover {
+        transition: .2s;
+        background: #038D89;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .cena input {
+        width: 310px;
+        height: 45px;
+    }
+    
+    .cena_ot_do {
+        display: flex;
+        padding-top: 33px;
+    }
+    
+    .header_2 .input_tovar {
+        width: 710px;
+        height: 45px;
+    }
+    
+    .res_poiska {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .res_poiska p {
+        font-size: 30px;
+        color: #222222;
+        font-weight: bold;
+    }
+    
+    .card_turbini {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .card_turbini:last-child {
+        justify-content: left;
+    }
+    
+    .card_turbini:last-child .turbini {
+        margin-right: 33px;
+    }
+    
+    .turbini {
+        width: 285px;
+        height: 360px;
+        background: #FFFFFF;
+        border: 3px solid #EFF4F7;
+        text-align: center;
+        transition: 0.2s;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+    
+    .turbini:hover {
+        border: 3px solid #0F68AC;
+    }
+    
+    .turbini img {
+        margin-top: 30px;
+    }
+    
+    .turbini p {
+        text-align: start;
+    }
+    
+    .turbini p:nth-child(2) {
+        font-size: 18px;
+        color: #222222;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 30px;
+    }
+    
+    .turbini p:nth-child(3) {
+        font-size: 14px;
+        color: #656565;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 30px;
+        font-weight: 400;
+    }
+    
+    .turbini p:nth-child(4) {
+        font-size: 25px;
+        color: #00A19C;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 30px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    
+    .turbini a {
+        padding: 15px 80px;
+        background: #0F68AC;
+        color: #fff;
+        transition: 0.2s;
+        font-weight: 600;
+    }
+    
+    .turbini a:hover {
+        background: #034D86;
+    }
+    
+    .analogi {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .analogi p {
+        font-size: 30px;
+        color: #222222;
+        font-weight: bold;
+    }
+    
+    .analogi_turbini {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    footer .logo {
+        display: flex;
+        color: #00A19C;
+        align-items: center;
+    }
+    
+    footer .logo img {
+        width: 82px;
+        height: 82px;
+        margin-right: 15px;
+    }
+    
+    .footer_p {
+        font-size: 16px;
+        color: #00A19C;
+    }
+    
+    footer {
+        background: url(../photo/fon_strelochka_siniy.svg) no-repeat;
+        width: 100%;
+        padding-bottom: 27px;
+        background: #013E64;
+    }
+    
+    .footer_img {
+        display: flex;
+        margin-top: 35px;
+    }
+    
+    .footer_img_text {
+        margin-left: 16px;
+        font-size: 16px;
+        color: #fff;
+    }
+    
+    .footer_img_text p:first-child {
+        margin-bottom: 0;
+    }
+    
+    .social_footer {
+        margin-top: 15px;
+    }
+    
+    .footer_blocks {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 140px;
+    }
+    
+    .footer_block:nth-child(2) {
+        color: #fff;
+    }
+    
+    .footer_block:nth-child(2) p {
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        padding-bottom: 25px;
+        text-transform: uppercase;
+    }
+    
+    .footer_block:nth-child(2) li {
+        font-size: 18px;
+        color: #A9A9A9;
+        list-style: circle;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+    
+    .footer_block:nth-child(3) p {
+        font-size: 22px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+    }
+    
+    .footer_block:nth-child(3) .footer_img {
+        margin-top: 0px;
+    }
+    
+    .strelochka {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .last_footer {
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 45px;
+        border-top: 1px solid #fff;
+        padding-bottom: 0;
+    }
+    /* МОБИЛКА katalog.html */
+    
+    @media screen and (max-width: 1441px) {
+        .card_turbini:last-child {
+            justify-content: space-between;
+        }
+        .card_turbini:last-child .turbini {
+            margin-right: 0;
+        }
+        .header .menu {
+            margin-left: 0;
+        }
+    }
+    
+    @media screen and (max-width: 1025px) {
+        .header {
+            padding: 10px 50px;
+        }
+        .container {
+            width: 90%;
+        }
+        .header .menu li a {
+            margin: 0;
+            margin-left: 0;
+            margin-right: 10px;
+        }
+        .footer_img_text p:nth-child(2) {
+            font-size: 20px;
+        }
+        .korzina {
+            display: none;
+        }
+        .header .chelovechek_img {
+            padding: 0 15px;
+        }
+    }
+    
+    @media screen and (max-width: 769px) {
+        .header {
+            padding: 10px 30px;
+        }
+        .header .telephone {
+            display: none;
+            background: #0F68AC;
+        }
+        .menu {
+            position: absolute;
+            background: #fff;
+            top: 100px;
+            padding: 15px 0;
+            width: 100%;
+            text-align: center;
+        }
+        .telephone {
+            position: absolute;
+            top: 200px;
+            padding: 15px 0;
+            width: 100%;
+            text-align: center;
+        }
+        .header .menu {
+            display: none;
+            margin-top: 30px;
+        }
+        header .social {
+            display: none;
+        }
+        .header .chelovechek_img {
+            display: none;
+        }
+        .korzina {
+            display: none;
+        }
+        .burger {
+            display: block;
+            width: 45px;
+            height: 35px;
+            margin-top: 30px;
+        }
+        .footer_blocks {
+            flex-wrap: wrap;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .card_turbini {
+            justify-content: center;
+        }
+        .res_poiska {
+            text-align: center;
+        }
+        .card_turbini:last-child {
+            justify-content: center;
+        }
+        .analogi_turbini {
+            justify-content: center;
+        }
+        .analogi {
+            text-align: center;
+        }
+        .header_2 .cena input {
+            margin: 10px 0;
+        }
+    }
+    
+    @media screen and (max-width: 376px) {
+        .footer_blocks {
+            padding-top: 60px;
+        }
+        .header_2 .cena input {
+            width: 281px;
+        }
+        .cena_ot_do {
+            flex-wrap: wrap;
+        }
+    }
+    /* LOG-IN */
+    
+    .login {
+        width: 300px;
+        padding-top: 160px;
+        height: 70vh;
+    }
+    
+    .login_a {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        text-decoration: underline;
+        width: 300px;
+    }
+    
+    .login_a a {
+        font-size: 15px;
+        color: #00A19C;
+    }
+    
+    .log-in p {
+        font-size: 30px;
+        color: #222222;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+    
+    .log-in input {
+        width: 285px;
+        height: 40px;
+        border-radius: 3px;
+        border: 1px solid #0F68AC;
+        padding-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .log-in input:nth-child(8) {
+        margin-bottom: 60px;
+    }
+    
+    .log-in label {
+        font-size: 18px;
+        color: #222222;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+    .btn_login {
+        width: 300px;
+        background: #0F68AC;
+        text-align: center;
+        padding: 14px 0;
+        transition: .2s;
+        cursor: pointer;
+    }
+    
+    .btn_login a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .btn_login:hover {
+        background: #03528E;
+        transition: .2s;
+    }

@@ -1,0 +1,155 @@
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .swiper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .image-content {
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        .card-content {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            position: relative;
+            padding: 52px 35px 30px 35px;
+            transition: .3s all ease-in;
+            cursor: pointer;
+            height: 405px;
+            .main-content__stock {
+                width: 63px;
+                height: 25px;
+                background: #1C62CD;
+                position: absolute;
+                left: -3px;
+                top: -3px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                border-radius: 8px;
+                .main-content__title {
+                    color: #fff;
+                    text-align: center;
+                    font-size: 12px;
+                    font-family: 'Barlow', sans-serif;
+                }
+            }
+            .img-img {
+                width: 200px;
+                height: 200px;
+            }
+            &:hover {
+                border: 4px solid #1C62CD;
+                box-shadow: none;
+            }
+            &:hover .main-title p:last-child {
+                color: #1C62CD;
+            }
+            .main-img__sale {
+                position: absolute;
+                left: -4px;
+                top: -4px;
+            }
+            .main-img {
+                position: absolute;
+                right: 16px;
+                top: 16px;
+                transition: display .5s ease-in-out;
+                &:hover .img-active {
+                    display: none;
+                    .img-focus {
+                        display: block;
+                    }
+                }
+                &:hover .img-focus {
+                    display: block;
+                }
+                .img-active {
+                    display: block;
+                }
+                .img-focus {
+                    display: none;
+                }
+            }
+            .main-img__product {
+                height: 200px;
+            }
+            .main-title {
+                text-align: center;
+                margin-top: 10px;
+                row-gap: 15px;
+                display: flex;
+                flex-direction: column;
+                p:first-child {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 21px;
+                    max-width: 230px;
+                }
+                p:last-child {
+                    font-family: 'Barlow', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+                .main-p:first-child {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #2F3035;
+                }
+                .main-p {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #2F3035;
+                }
+                .main-a {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #1C62CD;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .main-img__cart {
+                position: absolute;
+                bottom: -4px;
+                right: -4px;
+            }
+        }
+    }
